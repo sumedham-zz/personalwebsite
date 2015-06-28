@@ -1,0 +1,241 @@
+
+body {
+	background-color: #333333;
+}
+.title {
+	color: white;
+	font-family: Verdana;
+	font-size: 100px;
+	text-align: right;
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	width: 100%;
+
+}
+
+.name {
+	color: #6eaafd;
+	font-size: 140px;
+	font-family: Verdana;
+	text-align: right;
+	top: 30%;
+	right: 5%;
+	position: relative;
+	-webkit-animation: mymove 1.5s ease forwards;
+        animation: mymove 1.5s ease forwards; 
+}
+.nameabout {
+	color: #6eaafd;
+	font-size: 140px;
+	font-family: Verdana;
+	text-align: right;
+	top: 30%;
+	right: 5%;
+	margin-top: -6%;
+	margin-right: -5%;
+	position: absolute;
+	-webkit-animation: mymoveabout 1.5s ease forwards;
+        animation: mymoveabout 1.5s ease forwards;
+}
+
+#subtext {
+	color: #a3a3a3 ;
+	font-size: 30px;
+	margin-top: 14%;
+	right: 6%;
+	font-style: italic;
+	position: relative;
+	text-align: right;
+	float:right;
+}
+
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 185px;}
+}
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 185px;}
+}
+@-webkit-keyframes mymoveabout {
+    from {top: 0px;}
+    to {top: 185px;}
+}
+@keyframes mymoveabout {
+    from {top: 0px;}
+    to {top: 185px;}
+} 
+li {
+	list-style-type: none;
+}
+li a {
+	font-size: 30px;
+	font-family: Verdana; 
+	 -webkit-transition: all 1s ease-in-out;
+	 -moz-transition: all 1s ease-in-out;
+	 -ms-transition: all 1s ease-in-out;
+	 -o-transition: all 1s ease-in-out;
+	 transition: all 1s ease-in-out;
+}
+
+li a:visited{
+	font-weight: 300;
+	color:white;
+
+}
+
+li a:hover{
+	color: #a3a3a3;
+	font-weight: 300;
+	text-decoration: none;
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
+	}
+
+li a:active{
+	color: white;
+
+}
+
+li {
+	text-align: left;
+	position: relative;
+	height: 180px;
+	margin-top: -80px;
+}
+#pabout {
+	padding-top: 150px;
+	text-align: right;
+	font-family: Verdana;
+	font-size: 20px;
+	font-color: #a3a3a3 ;
+	width: 50%;
+	margin-left: 59%;
+	float:right;
+
+}
+#mypic {
+	height: 400px;
+	width:390px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+#speciallink {
+	font-size: 21px;
+	font-color:#6eaafd;
+}
+.arrow {
+	color: white;
+	height: 25px;
+	width: 25px;
+	float:left;
+	top: 89%;
+	left: 89%;
+	position: fixed;
+	font-family: Verdana;
+	font-size: 30px;
+	-webkit-transition: all 1s ease-in-out;
+	 -moz-transition: all 1s ease-in-out;
+	 -ms-transition: all 1s ease-in-out;
+	 -o-transition: all 1s ease-in-out;
+	 transition: all 1s ease-in-out;
+	}
+
+.arrow:hover {
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2);  
+	height: 40px;
+	width: 40px;
+	color: #a3a3a3;
+	font-weight: 300;
+	text-decoration: none;
+} 
+.icon {
+	float: right;
+	padding-top: 20%;
+	right: 5%;
+	margin-top: -550px;
+}
+#fb {
+	height: 60px;
+	width: 60px;
+	right: 26%;
+	position: absolute;
+	-webkit-animation: iconmove 1s ease forwards;
+        animation: iconmove 1s ease forwards;
+        -webkit-animation-delay: 2s;
+		animation-delay: 2s; 
+		transition: all .2s ease-in;
+
+
+}
+#fb:hover {
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+#gh {
+	height: 61px;
+	width: 61px;
+	right: 16%; 
+	position: absolute;
+	-webkit-animation: iconmove 1s ease forwards;
+     animation: iconmove 1s ease forwards;
+     -webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	transition: all .2s ease-in;
+}
+#gh:hover{
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+#li {
+	height: 60px;
+	width: 60px;
+	right: 6%;
+	position: absolute;
+	-webkit-animation: iconmove 1s ease forwards;
+     animation: iconmove 1s ease forwards;
+     -webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	transition: all .2s ease-in;
+}
+#li:hover {
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+@-webkit-keyframes iconmove 
+{
+	from {top: 0px;}
+	to {top: 450px;}
+}
+@keyframes iconmove {
+	from {top: 0px;}
+	to {top: 450px;}
+}
+
+.document {
+	margin-left: -800px;
+	position: relative;
+	-webkit-animation: docmove 2s ease forwards;
+        animation: docmove 2s ease forwards; 
+
+}
+@-webkit-keyframes docmove {
+    from {left: 0px;}
+    to {left: 900px;}
+}
+@keyframes docmove {
+    from {left: 0px;}
+    to {left: 900px;}
+}
+
+
+
