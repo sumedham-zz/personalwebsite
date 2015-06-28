@@ -68,8 +68,9 @@ body {
 } 
 li {
 	list-style-type: none;
+	color: white;
 }
-li a {
+.sidebar {
 	font-size: 30px;
 	font-family: Verdana; 
 	 -webkit-transition: all 1s ease-in-out;
@@ -79,13 +80,13 @@ li a {
 	 transition: all 1s ease-in-out;
 }
 
-li a:visited{
+.sidebar:visited{
 	font-weight: 300;
 	color:white;
 
 }
 
-li a:hover{
+.sidebar:hover{
 	color: #a3a3a3;
 	font-weight: 300;
 	text-decoration: none;
@@ -94,7 +95,7 @@ li a:hover{
     transform: scale(1.2); 
 	}
 
-li a:active{
+.sidebar:active{
 	color: white;
 
 }
@@ -141,6 +142,7 @@ li {
 	 -ms-transition: all 1s ease-in-out;
 	 -o-transition: all 1s ease-in-out;
 	 transition: all 1s ease-in-out;
+	 text-decoration: none;
 	}
 
 .arrow:hover {
@@ -153,6 +155,14 @@ li {
 	font-weight: 300;
 	text-decoration: none;
 } 
+.arrow:visited{
+	color:white;
+	text-decoration: none;
+}
+.arrow:active{
+	color:white;
+	text-decoration: none;
+}
 .icon {
 	float: right;
 	padding-top: 20%;
