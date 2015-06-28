@@ -125,7 +125,11 @@ li {
 }
 #speciallink {
 	font-size: 21px;
-	font-color:#6eaafd;
+	color:#6eaafd;
+
+}
+#speciallink:hover {
+	color: white;
 }
 .arrow {
 	color: white;
@@ -242,6 +246,5 @@ li {
     from {left: 0px;}
     to {left: 900px;}
 }
-
 
 
