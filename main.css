@@ -119,10 +119,12 @@ li {
 
 }
 #mypic {
-	height: 400px;
-	width:390px;
-	margin-left: 40px;
-	margin-top: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 100%;
+	width:400px;
+	
+	
 }
 #speciallink {
 	font-size: 21px;
@@ -247,15 +249,24 @@ li {
     from {left: 0px;}
     to {left: 900px;}
 }
-.sayhello {
-	color: #6eaafd;
+.info {
 	font-family: Verdana;
-	font-size: 75px;
-	text-align: left;
 	position: absolute;
 	top: 7%;
-	left: 10px;
 	width: 100%;
+	padding-left: 20px;
+	text-align: left;
+	color: #a3a3a3;
+
+}
+.sayhello {
+	font-size: 100px;
+	color: #6eaafd;
+}
+.subsayhello {
+	font-size: 40px;
+	height: 50%;
+	width: 50%;
 }
 
 form {
@@ -263,8 +274,8 @@ form {
 	color: white ;
 	font-family: Verdana;
 	font-size: 30px;
-	margin-top: 15%;
-	margin-right: 5%;
+	margin-top: 12%;
+	margin-right: 60px;
 }
 input {
 	background-color: #333333 ;
