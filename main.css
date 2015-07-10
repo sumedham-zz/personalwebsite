@@ -352,12 +352,29 @@ form {
 	color: white ;
 	font-size: 30px;
 	margin-top: 9%;
-	margin-right: 80px;
+	margin-right: 22%;
 	z-index: -1;
 	position:relative;
 }
 input {
 	background-color: #333333 ;
 	border-color: white;
+	font-size: 20px;
+}
+#nameInput {
+	height: 200%;
+	width: 200%;
+}
+#emailInput {
+	height: 200%;
+	width: 200%;
+}
+#subjectInput {
+	height: 200%;
+	width: 200%;
+}
+#textInput {
+	height: 120px;
+	width: 200%;
 }
 
