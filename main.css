@@ -1,10 +1,11 @@
 
 body {
 	background-color: #333333;
+	font-family: Helvetica;
+	font-weight: 200;
 }
 .title {
 	color: white;
-	font-family: Verdana;
 	font-size: 100px;
 	text-align: right;
 	position: absolute;
@@ -13,11 +14,20 @@ body {
 	width: 100%;
 
 }
+.links {
+	color: #6eaafd;
+}
+.links:hover {
+	color: white;
+	text-decoration: none;
+}
+.links:visited {
+	text-decoration: none;
+}
 
 .name {
 	color: #6eaafd;
 	font-size: 140px;
-	font-family: Verdana;
 	text-align: right;
 	top: 30%;
 	right: 5%;
@@ -28,7 +38,6 @@ body {
 .nameabout {
 	color: #6eaafd;
 	font-size: 140px;
-	font-family: Verdana;
 	text-align: right;
 	top: 30%;
 	right: 5%;
@@ -39,7 +48,7 @@ body {
         animation: mymoveabout 1.5s ease forwards;
 }
 
-#subtext {
+.subtext {
 	color: #a3a3a3 ;
 	font-size: 30px;
 	margin-top: 14%;
@@ -72,8 +81,7 @@ li {
 }
 .sidebar {
 	color:white;
-	font-size: 30px;
-	font-family: Verdana; 
+	font-size: 30px; 
 	 -webkit-transition: all 1s ease-in-out;
 	 -moz-transition: all 1s ease-in-out;
 	 -ms-transition: all 1s ease-in-out;
@@ -82,14 +90,12 @@ li {
 }
 
 .sidebar:visited{
-	font-weight: 300;
 	color:white;
 
 }
 
 .sidebar:hover{
 	color: #a3a3a3;
-	font-weight: 300;
 	text-decoration: none;
 	t -webkit-transform: scale(1.2); 
     -ms-transform: scale(1.2); 
@@ -110,7 +116,6 @@ li {
 #pabout {
 	padding-top: 150px;
 	text-align: right;
-	font-family: Verdana;
 	font-size: 20px;
 	font-color: #a3a3a3 ;
 	width: 50%;
@@ -143,7 +148,6 @@ li {
 	top: 89%;
 	left: 89%;
 	position: fixed;
-	font-family: Verdana;
 	-webkit-transition: all 1s ease-in-out;
 	 -moz-transition: all 1s ease-in-out;
 	 -ms-transition: all 1s ease-in-out;
@@ -170,7 +174,7 @@ li {
 	float: right;
 	padding-top: 20%;
 	right: 5%;
-	margin-top: -550px;
+	margin-top: -550px; 
 }
 #fb {
 	height: 60px;
@@ -235,8 +239,9 @@ li {
 }
 
 .document {
-	margin-left: -800px;
-	position: relative;
+	float left: 
+	position: fixed;
+	width:100%;
 	-webkit-animation: docmove 2s ease forwards;
         animation: docmove 2s ease forwards; 
 
@@ -249,37 +254,110 @@ li {
     from {left: 0px;}
     to {left: 900px;}
 }
+.interested {
+	font-size: 30px;
+	color: white;
+	height: 60px;
+	width: 20%;
+	float:left;
+	top: 40%;
+	left: 74%;
+	position: fixed;
+	text-decoration: none;
+	text-align: right;
+}
 .info {
-	font-family: Verdana;
 	position: absolute;
-	top: 7%;
-	width: 100%;
+	top: 5%;
+	width: 50%;
 	padding-left: 20px;
-	text-align: left;
-	color: #a3a3a3;
+	color: white;
+	height: 30%;
 
 }
 .sayhello {
+	font-family: Helvetica;
 	font-size: 100px;
 	color: #6eaafd;
+	font-weight: 200px;
 }
-.subsayhello {
-	font-size: 40px;
-	height: 50%;
-	width: 50%;
+h3 {
+	top: 200px;
+	font-size: 22px;
+	left: 20px;
+	color: #a3a3a3;
+	font-weight: 700;
+}
+.info p {
+	color: white;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: 100;
+}
+.details {
+	padding-top: 30px;
+}
+.friendme {
+	padding-top: 30px;
+}
+
+.icons{
+	float: left;
+	padding-top: 20%;
+	left: 2%;
+	margin-top: 240px;
+}
+#fbs {
+	height: 30px;
+	width: 30px;
+	left: 14%;
+	position: absolute;
+	transition: all .2s ease-in;
+
+
+}
+#fbs:hover {
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+#ghs {
+	height: 30px;
+	width: 30px;
+	left: 8%; 
+	position: absolute;
+	transition: all .2s ease-in;
+}
+#ghs:hover{
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+#lis {
+	height: 30px;
+	width: 30px;
+	left: 2%;
+	position: absolute;
+	transition: all .2s ease-in;
+}
+#lis:hover {
+	t -webkit-transform: scale(1.2); 
+    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
 }
 
 form {
 	float: right;
 	color: white ;
-	font-family: Verdana;
 	font-size: 30px;
-	margin-top: 12%;
-	margin-right: 60px;
+	margin-top: 9%;
+	margin-right: 80px;
+	z-index: -1;
+	position:relative;
 }
 input {
 	background-color: #333333 ;
 	border-color: white;
 }
-
 
