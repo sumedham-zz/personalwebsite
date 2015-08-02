@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<title>Sumedha Mehta</title>
+	<link rel="stylesheet" type = "text/css" href="css/main.css">
+</head>
+<body>
+	<div class = "title">
+		<p> Hi, I'm</p> 
+	</div>
+		<div class = "namebox" ><p class = "name"> Sumedha </p></div>
+		<p class = "subtext"> Coder. Climber. Composer. </p>
+		<div class = "leftbox">
+			<ul class = "pull-left">
+				<div class = "list">
+				<li><a href="html/about.html" class = "sidebar" >about</a></li>
+				<li><a href="html/blog.html" class = "sidebar">blog</a></li>
+				<li><a href="html/resume.html" class = "sidebar">resume</a></li>
+				<li><a href="contact.php" class = "sidebar">contact</a></li>
+				</div>
+			</ul>
+		</div>
+		<div class = "icon">
+		<a href = "https://www.facebook.com/sumedha.mehta.37" target ="_blank"><img  id = "fb" src = "images/facebook.png"></a>
+		<a href="https://github.com/sumedham" target ="_blank"><img id = "gh" src = "images/github.png"></a>
+		<a href ="https://www.linkedin.com/in/sumedhamehta" target ="_blank" ><img id= "li" src = "images/linkedin.png"></a>
+		</div>
+</body>
+</html>

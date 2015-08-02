@@ -4,6 +4,8 @@ body {
 	font-family: Helvetica;
 	font-weight: 200;
 }
+
+
 .title {
 	color: white;
 	font-size: 100px;
@@ -123,13 +125,25 @@ li {
 	float:right;
 
 }
+
+
 #mypic {
+	-webkit-animation: picmove .75s ease-in forwards;
+        animation: picmove .75s ease-in forwards; 
+    -webkit-animation-delay: 1.5s; 
+        animation-delay: 1.5s;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: -400px;
 	height: 100%;
 	width:400px;
-	
-	
+}
+@-webkit-keyframes picmove {
+    from {margin-left: -400px;}
+    to {margin-left: 40px;}
+}
+@keyframes picmove {
+    from {margin-left: -400px;}
+    to {margin-left: 40px;}
 }
 #speciallink {
 	font-size: 21px;
@@ -244,6 +258,9 @@ li {
 	width:100%;
 	-webkit-animation: docmove 2s ease forwards;
         animation: docmove 2s ease forwards; 
+    -webkit-animation-delay: 2s;
+    	animation-delay: 2s;
+
 
 }
 @-webkit-keyframes docmove {
@@ -353,7 +370,7 @@ form {
 	font-size: 30px;
 	margin-top: 9%;
 	margin-right: 22%;
-	z-index: -1;
+	z-index: -1; 
 	position:relative;
 }
 input {

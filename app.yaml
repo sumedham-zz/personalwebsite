@@ -1,0 +1,14 @@
+application: sumedhapersonalwebsite	
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+-url: /css
+	static_dir: /css
+-url: /html
+	static_dir: /html
+-url: /images
+	static_dir: /images
+- url: /.*
+  script: myweb.php

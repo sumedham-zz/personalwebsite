@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<title>Sumedha Mehta</title>
+	<link rel="stylesheet" type = "text/css" href="css/main.css">
+</head>
+<div class = "slidedowntransition">
+<body>
+	<div class = "info"> 
+		<h1 class = "sayhello" >Say Hello!</h1>
+		<div class ="contactme">
+			<h3> Contact Me </h3>
+			<p>Let's chat over some coffee or good food!</p>
+		</div>
+		<div class = "details">
+			<h3> Details </h3>
+			<p>Email: sumedha.mehta@gmail.com</p>
+			<p>Phone: 469.449.7958</p>
+		</div>
+		<div class = "friendme">
+			<h3> Friend/Connect/Follow Me!</h3>
+		</div>
+	</div>
+	
+	<div class = "icons">
+		<div id = "iconsmall">
+		<a href = "https://www.facebook.com/sumedha.mehta.37" target ="_blank"><img  id = "fbs" src = "../images/facebook.png"></a>
+		<a href="https://github.com/sumedham" target ="_blank"><img id = "ghs" src = "../images/github.png"></a>
+		<a href ="https://www.linkedin.com/in/sumedhamehta" target ="_blank" ><img id= "lis" src = "../images/linkedin.png"></a>
+		</div>
+	</div>
+
+
+	<form action = "MAILTO: sumedha.mehta@gmail.com" method: "post" enctype: "text/plain">
+		Name <br>
+		<input type = "text" name ="personname" id= "nameInput"> <br>
+		Email  <br>
+		<input type = "text" name ="personemail" id= "emailInput"> <br>
+		Subject <br>
+		<input type = "text" name ="personsubject" id= "subjectInput"> <br>
+		Text <br>
+		<input type = "text" name = "persontext" id= "textInput"> <br>
+		<input type = "submit">
+	</form>
+	<?php
+		if(($_POST['persontext']) && ($_POST['personemail']) && ($_POST['personname']) && ($_POST['personsubject'])) {
+			$personname = $_POST['personname'];
+			$personemail = $_POST['personemail'];
+			$personsubject = $_POST['personsubject'];
+			$persontext = $_POST['persontext'];
+			
+			$to = 'sumedha.mehta@gmail.com';
+			$subject = 'New Message';
+			$body = $personname. " ".$text;
+			$headers = 'From: ' . $personemail;
+
+			if(@email($to, $subject, $persontext, $body, $headers)) 
+				{ 
+					echo 'Your message has been sent';
+				}
+			else {
+				echo 'Message not sent';
+			}
+		}
+	?>
+
+	
+	<br>
+	<a href = "myweb.html" class = "arrow"><p> back </a>
+	
+</body>
+</html>
