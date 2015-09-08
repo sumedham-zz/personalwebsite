@@ -5,34 +5,35 @@
 	<title>Sumedha Mehta</title>
 	<link rel="stylesheet" type = "text/css" href="css/main.css">
 </head>
-<div class = "slidedowntransition">
 <body>
-	<div class = "info"> 
-		<h1 class = "sayhello" >Say Hello!</h1>
-		<div class ="contactme">
+	<div class = "infotransition">
+		<div class = "info"> 
+			<h1 class = "sayhello" >Say Hello!</h1>
+		</div>
+		<div id = "lol">
 			<h3> Contact Me </h3>
 			<p>Let's chat over some coffee or good food!</p>
-		</div>
-		<div class = "details">
+			<p>I can literally talk about anything. I would love to get to know you.</p>
 			<h3> Details </h3>
 			<p>Email: sumedha.mehta@gmail.com</p>
-			<p>Phone: 469.449.7958</p>
-		</div>
-		<div class = "friendme">
+			<p>Phone: 469.449.7958 </p>
 			<h3> Friend/Connect/Follow Me!</h3>
+			<p> Social media exists for a reason! Stalk me all you want. </p>
+			<p>Facebook. Github. Linkedin. Also you can follow me on Instagram: sumedhamehta </p>
 		</div>
 	</div>
+
 	
 	<div class = "icons">
 		<div id = "iconsmall">
-		<a href = "https://www.facebook.com/sumedha.mehta.37" target ="_blank"><img  id = "fbs" src = "../images/facebook.png"></a>
-		<a href="https://github.com/sumedham" target ="_blank"><img id = "ghs" src = "../images/github.png"></a>
-		<a href ="https://www.linkedin.com/in/sumedhamehta" target ="_blank" ><img id= "lis" src = "../images/linkedin.png"></a>
+		<a href = "https://www.facebook.com/sumedha.mehta.37" target ="_blank"><img  id = "fbs" src = "images/facebook.png"></a>
+		<a href="https://github.com/sumedham" target ="_blank"><img id = "ghs" src = "images/github.png"></a>
+		<a href ="https://www.linkedin.com/in/sumedhamehta" target ="_blank" ><img id= "lis" src = "images/linkedin.png"></a>
 		</div>
 	</div>
 
 
-	<form action = "MAILTO: sumedha.mehta@gmail.com" method: "post" enctype: "text/plain">
+	<!--form action = "MAILTO: sumedha.mehta@gmail.com" method: "post" enctype: "text/plain">
 		Name <br>
 		<input type = "text" name ="personname" id= "nameInput"> <br>
 		Email  <br>
@@ -44,7 +45,7 @@
 		<input type = "submit">
 	</form>
 	<?php
-		if(($_POST['persontext']) && ($_POST['personemail']) && ($_POST['personname']) && ($_POST['personsubject'])) {
+		/* if(($_POST['persontext']) && ($_POST['personemail']) && ($_POST['personname']) && ($_POST['personsubject'])) {
 			$personname = $_POST['personname'];
 			$personemail = $_POST['personemail'];
 			$personsubject = $_POST['personsubject'];
@@ -60,13 +61,13 @@
 					echo 'Your message has been sent';
 				}
 			else {
-				echo 'Message not sent';
+				echo 'Message not sent'; */
 			}
 		}
-	?>
+	?> 
 
 	
-	<br>
+	</br-->
 	<a href = "myweb.html" class = "arrow"><p> back </a>
 	
 </body>

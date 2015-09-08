@@ -160,7 +160,7 @@ li {
 	width: 25px;
 	float:left;
 	top: 89%;
-	left: 89%;
+	left: 88%;
 	position: fixed;
 	-webkit-transition: all 1s ease-in-out;
 	 -moz-transition: all 1s ease-in-out;
@@ -298,36 +298,51 @@ li {
 	color: #6eaafd;
 	font-weight: 200px;
 }
+
+#lol {
+	margin-top:12%;
+	margin-left:30px; 
+}
+
 h3 {
-	top: 200px;
+	padding-top:20px;
+	padding-bottom: 20px;
 	font-size: 22px;
-	left: 20px;
 	color: #a3a3a3;
 	font-weight: 700;
 }
-.info p {
+#lol p {
 	color: white;
 	font-family: Helvetica;
 	font-size: 15px;
 	font-weight: 100;
-}
-.details {
-	padding-top: 30px;
-}
-.friendme {
-	padding-top: 30px;
+	margin-top: -10px;
 }
 
 .icons{
 	float: left;
-	padding-top: 20%;
-	left: 2%;
-	margin-top: 240px;
+	padding-top: 3%;
+	left: 40px ;
+	margin-top: -50px;
+	-webkit-animation: picmove .75s ease-in forwards;
+        animation: picmove .75s ease-in forwards; 
+    -webkit-animation-delay: 1.5s; 
+        animation-delay: 1.5s;
+}
+
+@-webkit-keyframes textmove {
+    from {margin-left: -400px;}
+    to {margin-left: 40px;}
+}
+@keyframes textmove {
+    from {margin-left: -400px;}
+    to {margin-left: 40px;}
 }
 #fbs {
-	height: 30px;
-	width: 30px;
-	left: 14%;
+	height: 140px;
+	width: 140px;
+	left: 85%;
+	margin-top: -450px;
 	position: absolute;
 	transition: all .2s ease-in;
 
@@ -340,9 +355,10 @@ h3 {
 }
 
 #ghs {
-	height: 30px;
-	width: 30px;
-	left: 8%; 
+	height: 140px;
+	width: 140px;
+	left: 85%; 
+	margin-top: -275px;
 	position: absolute;
 	transition: all .2s ease-in;
 }
@@ -352,9 +368,10 @@ h3 {
     transform: scale(1.2); 
 }
 #lis {
-	height: 30px;
-	width: 30px;
-	left: 2%;
+	height: 140px;
+	width: 140px;
+	left: 85%;
+	margin-top: -100px;
 	position: absolute;
 	transition: all .2s ease-in;
 }
@@ -364,34 +381,31 @@ h3 {
     transform: scale(1.2); 
 }
 
-form {
-	float: right;
-	color: white ;
-	font-size: 30px;
-	margin-top: 9%;
-	margin-right: 22%;
-	z-index: -1; 
-	position:relative;
+.picknic {
+	height: 179px;
+	width:300px;
+	margin-top: -300px;
+	margin-left: 30px;
+	transition: all .2s ease-in;
 }
-input {
-	background-color: #333333 ;
-	border-color: white;
-	font-size: 20px;
+.picknic:hover {
+	t -webkit-transform: scale(1.1); 
+    -ms-transform: scale(1.1); 
+    transform: scale(1.1); 
+} 
+.moretocome {
+	height: 179px;
+	width:300px;
+	margin-left: -304px;
+	margin-top: 100px;
+	transition: all .2s ease-in;
 }
-#nameInput {
-	height: 200%;
-	width: 200%;
+
+.moretocome:hover {
+	t -webkit-transform: scale(1.1); 
+    -ms-transform: scale(1.1); 
+    transform: scale(1.1);
 }
-#emailInput {
-	height: 200%;
-	width: 200%;
-}
-#subjectInput {
-	height: 200%;
-	width: 200%;
-}
-#textInput {
-	height: 120px;
-	width: 200%;
-}
+
+
 
