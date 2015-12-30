@@ -1,7 +1,7 @@
 
 body {
 	background-color: #333333;
-	font-family: Helvetica;
+	font-family: Lato;
 	font-weight: 200;
 }
 
@@ -210,14 +210,15 @@ li {
 }
 
 #gh {
-	height: 61px;
-	width: 61px;
+	height: 50px;
+	width: 50px;
 	right: 16%; 
+	margin-top: 3px;
 	position: absolute;
 	-webkit-animation: iconmove 1s ease forwards;
      animation: iconmove 1s ease forwards;
-     -webkit-animation-delay: 2s;
-	animation-delay: 2s;
+     -webkit-animation-delay: 3s;
+	animation-delay: 3s;
 	transition: all .2s ease-in;
 }
 #gh:hover{
@@ -232,8 +233,8 @@ li {
 	position: absolute;
 	-webkit-animation: iconmove 1s ease forwards;
      animation: iconmove 1s ease forwards;
-     -webkit-animation-delay: 2s;
-	animation-delay: 2s;
+     -webkit-animation-delay: 4s;
+	animation-delay: 4s;
 	transition: all .2s ease-in;
 }
 #li:hover {
@@ -355,9 +356,9 @@ h3 {
 }
 
 #ghs {
-	height: 140px;
-	width: 140px;
-	left: 85%; 
+	height: 115px;
+	width: 115spx;
+	left: 86%; 
 	margin-top: -275px;
 	position: absolute;
 	transition: all .2s ease-in;
@@ -371,7 +372,7 @@ h3 {
 	height: 140px;
 	width: 140px;
 	left: 85%;
-	margin-top: -100px;
+	margin-top: -120px;
 	position: absolute;
 	transition: all .2s ease-in;
 }
